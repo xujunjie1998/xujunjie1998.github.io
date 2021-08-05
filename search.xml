@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>第一章 网络概述</title>
+    <url>/2021/08/05/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/</url>
+    <content><![CDATA[<p><strong>网络</strong>：网络（Network）由若干<strong>结点（Node）</strong>和连接这些结点的<strong>链路（Link）</strong>组成。<br><strong>互连网</strong>（互联网）：多个网络通过路由器互连起来，就构成了一个覆盖范围更大的网络，即互连网（互联网），又称为“网络的网络（Network of Networks）”。<br><strong>因特网</strong>：因特网（Internet）是世界上最大的互连网络。<br><img src="D:\myblog\hexo\文章图片\01_\00_网络.PNG"></p>
+<p><strong>ISP</strong>: 网络服务提供商（Internet Service Provider)。</p>
+<hr>
+<h3 id="1-1-2-因特网的组成"><a href="#1-1-2-因特网的组成" class="headerlink" title="1.1.2  因特网的组成"></a>1.1.2  因特网的组成</h3><hr>
+<p>边缘部分：<br>核心部分：</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/08/02/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
