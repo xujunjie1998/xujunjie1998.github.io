@@ -33,7 +33,7 @@
 </ul>
 </blockquote>
 <h3 id="1-4-计算机网络的性能指标"><a href="#1-4-计算机网络的性能指标" class="headerlink" title="1.4 计算机网络的性能指标"></a>1.4 计算机网络的性能指标</h3><p>速率：比特率或数据率<br>带宽：表示网络通信线路所能传输数据的能力（可以理解为最高速率）</p>
-<p><img src="https://www.imagehub.cc/image/gPM7y"></p>
+<p><img src="https://s1.imagehub.cc/images/2021/08/06/06_6579e7121209e81b.png"></p>
 <p>吞吐量：不会超过带宽<br>时延：发送时延、传播时延·、处理时延（包含排队时延）<br>时延带宽积：<br>往返时间(RTT)：<br>利用率：<br>丢包率：</p>
 ]]></content>
   </entry>
