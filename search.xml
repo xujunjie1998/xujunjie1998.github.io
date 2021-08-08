@@ -37,7 +37,19 @@
 <p><img src="https://s1.imagehub.cc/images/2021/08/06/06_6579e7121209e81b.png"></p>
 <p>往返时间(RTT)：<br>利用率：<br>丢包率：</p>
 <hr>
-<h2 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h2><h3 id="常见的网络体系结构"><a href="#常见的网络体系结构" class="headerlink" title="常见的网络体系结构"></a>常见的网络体系结构</h3><h3 id="计算机网络体系结构分层的必要性"><a href="#计算机网络体系结构分层的必要性" class="headerlink" title="计算机网络体系结构分层的必要性"></a>计算机网络体系结构分层的必要性</h3><h3 id="计算机网络通信过程"><a href="#计算机网络通信过程" class="headerlink" title="计算机网络通信过程"></a>计算机网络通信过程</h3><h3 id="计算机网络专用术语"><a href="#计算机网络专用术语" class="headerlink" title="计算机网络专用术语"></a>计算机网络专用术语</h3><hr>
+<h2 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h2><p><img src="D:\myblog\hexo\source_posts\01_计算机网络概述.assets\image-20210808115204636.png" alt="image-20210808115204636"></p>
+<h3 id="常见的网络体系结构"><a href="#常见的网络体系结构" class="headerlink" title="常见的网络体系结构"></a>常见的网络体系结构</h3><h3 id="计算机网络体系结构分层的必要性"><a href="#计算机网络体系结构分层的必要性" class="headerlink" title="计算机网络体系结构分层的必要性"></a>计算机网络体系结构分层的必要性</h3><h3 id="计算机网络通信过程"><a href="#计算机网络通信过程" class="headerlink" title="计算机网络通信过程"></a>计算机网络通信过程</h3><h3 id="计算机网络专用术语"><a href="#计算机网络专用术语" class="headerlink" title="计算机网络专用术语"></a>计算机网络专用术语</h3><hr>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2021/08/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<hr>
+<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
+<hr>
+<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p>
+<hr>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><hr>
 ]]></content>
   </entry>
   <entry>
@@ -56,17 +68,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我的第一篇博客</title>
-    <url>/2021/08/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<hr>
-<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
-<hr>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p>
-<hr>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><hr>
 ]]></content>
   </entry>
 </search>
