@@ -4,7 +4,7 @@
     <title>第一章 网络概述</title>
     <url>/2021/08/05/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/</url>
     <content><![CDATA[<h1 id="计算机网络第一章（概述）"><a href="#计算机网络第一章（概述）" class="headerlink" title="计算机网络第一章（概述）"></a>计算机网络第一章（概述）</h1><hr>
-<h2 id="网络、互联网（互连网）和因特网"><a href="#网络、互联网（互连网）和因特网" class="headerlink" title="网络、互联网（互连网）和因特网"></a>网络、互联网（互连网）和因特网</h2><p><strong>网络</strong>：网络（Network）由若干<strong>结点（Node）</strong>和连接这些结点的<strong>链路（Link）</strong>组成。<br><strong>互连网</strong>（互联网）：多个网络通过路由器互连起来，就构成了一个覆盖范围更大的网络，即互连网（互联网），又称为“网络的网络（Network of Networks）”。<br><strong>因特网</strong>：因特网（Internet）是世界上最大的互连网络。<br><img src="/.com//myblog\hexo\文章图片\01_\00_网络.PNG"></p>
+<h2 id="网络、互联网（互连网）和因特网"><a href="#网络、互联网（互连网）和因特网" class="headerlink" title="网络、互联网（互连网）和因特网"></a>网络、互联网（互连网）和因特网</h2><p><strong>网络</strong>：网络（Network）由若干<strong>结点（Node）</strong>和连接这些结点的<strong>链路（Link）</strong>组成。<br><strong>互连网</strong>（互联网）：多个网络通过路由器互连起来，就构成了一个覆盖范围更大的网络，即互连网（互联网），又称为“网络的网络（Network of Networks）”。<br><strong>因特网</strong>：因特网（Internet）是世界上最大的互连网络。<br><img src="/2021/08/05/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/myblog\hexo\文章图片\01_\00_网络.PNG"></p>
 <p><strong>ISP</strong>: 网络服务提供商（Internet Service Provider)。</p>
 <hr>
 <h2 id="因特网的组成"><a href="#因特网的组成" class="headerlink" title="因特网的组成"></a>因特网的组成</h2><p>边缘部分：<br>核心部分：</p>
@@ -37,8 +37,19 @@
 <p><img src="https://s1.imagehub.cc/images/2021/08/06/06_6579e7121209e81b.png"></p>
 <p>往返时间(RTT)：<br>利用率：<br>丢包率：</p>
 <hr>
-<h2 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h2><p><img src="/.com//myblog\hexo\source_posts\01_计算机网络概述.assets\image-20210808115204636.png" alt="image-20210808115204636"></p>
+<h2 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h2><p><img src="/2021/08/05/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/myblog\hexo\source_posts\01_计算机网络概述.assets\image-20210808115204636.png" alt="image-20210808115204636"></p>
 <h3 id="常见的网络体系结构"><a href="#常见的网络体系结构" class="headerlink" title="常见的网络体系结构"></a>常见的网络体系结构</h3><h3 id="计算机网络体系结构分层的必要性"><a href="#计算机网络体系结构分层的必要性" class="headerlink" title="计算机网络体系结构分层的必要性"></a>计算机网络体系结构分层的必要性</h3><h3 id="计算机网络通信过程"><a href="#计算机网络通信过程" class="headerlink" title="计算机网络通信过程"></a>计算机网络通信过程</h3><h3 id="计算机网络专用术语"><a href="#计算机网络专用术语" class="headerlink" title="计算机网络专用术语"></a>计算机网络专用术语</h3><hr>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2021/08/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<hr>
+<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
+<hr>
+<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p>
+<hr>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><hr>
 ]]></content>
   </entry>
   <entry>
@@ -62,18 +73,7 @@
   <entry>
     <title>test</title>
     <url>/2021/08/08/test/</url>
-    <content><![CDATA[<p><img src="/.com//myblog\hexo\source_posts\test\image-20210808115204636.png"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我的第一篇博客</title>
-    <url>/2021/08/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<hr>
-<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
-<hr>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p>
-<hr>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><hr>
+    <content><![CDATA[<p><img src="/2021/08/08/test/myblog\hexo\source_posts\test\image-20210808115204636.png"></p>
 ]]></content>
   </entry>
 </search>
