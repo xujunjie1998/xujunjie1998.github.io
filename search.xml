@@ -3,13 +3,13 @@
   <entry>
     <title>第一章 网络概述</title>
     <url>/2021/08/05/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/</url>
-    <content><![CDATA[<h1 id="计算机网络第一章"><a href="#计算机网络第一章" class="headerlink" title="计算机网络第一章"></a>计算机网络第一章</h1><h2 id="1-概述"><a href="#1-概述" class="headerlink" title="1 概述"></a>1 概述</h2><h3 id="1-1-网络、互联网（互连网）和因特网"><a href="#1-1-网络、互联网（互连网）和因特网" class="headerlink" title="1 .1 网络、互联网（互连网）和因特网"></a>1 .1 网络、互联网（互连网）和因特网</h3><hr>
-<p><strong>网络</strong>：网络（Network）由若干<strong>结点（Node）</strong>和连接这些结点的<strong>链路（Link）</strong>组成。<br><strong>互连网</strong>（互联网）：多个网络通过路由器互连起来，就构成了一个覆盖范围更大的网络，即互连网（互联网），又称为“网络的网络（Network of Networks）”。<br><strong>因特网</strong>：因特网（Internet）是世界上最大的互连网络。<br><img src="D:\myblog\hexo\文章图片\01_\00_网络.PNG"></p>
+    <content><![CDATA[<h1 id="计算机网络第一章"><a href="#计算机网络第一章" class="headerlink" title="计算机网络第一章"></a>计算机网络第一章</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><hr>
+<h3 id="网络、互联网（互连网）和因特网"><a href="#网络、互联网（互连网）和因特网" class="headerlink" title="网络、互联网（互连网）和因特网"></a>网络、互联网（互连网）和因特网</h3><p><strong>网络</strong>：网络（Network）由若干<strong>结点（Node）</strong>和连接这些结点的<strong>链路（Link）</strong>组成。<br><strong>互连网</strong>（互联网）：多个网络通过路由器互连起来，就构成了一个覆盖范围更大的网络，即互连网（互联网），又称为“网络的网络（Network of Networks）”。<br><strong>因特网</strong>：因特网（Internet）是世界上最大的互连网络。<br><img src="D:\myblog\hexo\文章图片\01_\00_网络.PNG"></p>
 <p><strong>ISP</strong>: 网络服务提供商（Internet Service Provider)。</p>
-<h3 id="1-2-因特网的组成"><a href="#1-2-因特网的组成" class="headerlink" title="1.2  因特网的组成"></a>1.2  因特网的组成</h3><hr>
-<p>边缘部分：<br>核心部分：</p>
-<h3 id="1-3-三种交换方式"><a href="#1-3-三种交换方式" class="headerlink" title="1.3 三种交换方式"></a>1.3 三种交换方式</h3><hr>
-<p>电路交换：</p>
+<hr>
+<h3 id="因特网的组成"><a href="#因特网的组成" class="headerlink" title="因特网的组成"></a>因特网的组成</h3><p>边缘部分：<br>核心部分：</p>
+<hr>
+<h3 id="三种交换方式"><a href="#三种交换方式" class="headerlink" title="三种交换方式"></a>三种交换方式</h3><p>电路交换：</p>
 <blockquote>
 <ul>
 <li>通信前需要建立连接</li>
@@ -32,11 +32,9 @@
 <li>无需建立连接，报文交换对报文的大小没有限制，这就要求交换结点需要较大的缓存空间。报文交换主要用于早期的电报通信网，现在较少使用，<strong>通常被较先进的分组交换方式所取代</strong>。</li>
 </ul>
 </blockquote>
-<h3 id="1-4-计算机网络的性能指标"><a href="#1-4-计算机网络的性能指标" class="headerlink" title="1.4 计算机网络的性能指标"></a>1.4 计算机网络的性能指标</h3><p>速率：比特率或数据率<br>带宽：表示网络通信线路所能传输数据的能力（可以理解为最高速率）</p>
-<blockquote>
+<h3 id="计算机网络的性能指标"><a href="#计算机网络的性能指标" class="headerlink" title="计算机网络的性能指标"></a>计算机网络的性能指标</h3><p>速率：比特率或数据率<br>带宽：表示网络通信线路所能传输数据的能力（可以理解为最高速率）<br>吞吐量：不会超过带宽<br>时延：发送时延、传播时延·、处理时延（包含排队时延）<br>时延带宽积：</p>
 <p><img src="https://s1.imagehub.cc/images/2021/08/06/06_6579e7121209e81b.png"></p>
-</blockquote>
-<p>吞吐量：不会超过带宽<br>时延：发送时延、传播时延·、处理时延（包含排队时延）<br>时延带宽积：<br>往返时间(RTT)：<br>利用率：<br>丢包率：</p>
+<p>往返时间(RTT)：<br>利用率：<br>丢包率：</p>
 ]]></content>
   </entry>
   <entry>
