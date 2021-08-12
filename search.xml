@@ -98,6 +98,39 @@
 ]]></content>
   </entry>
   <entry>
+    <title>常用排序算法之快速排序（c++实现）</title>
+    <url>/2021/08/12/03-%E5%B8%B8%E7%94%A8%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%EF%BC%88c-%E5%AE%9E%E7%8E%B0%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h1><p>[TOC]</p>
+<hr>
+<h2 id="算法思想"><a href="#算法思想" class="headerlink" title="算法思想"></a>算法思想</h2><p>​        快速排序的基本思想：通过一趟排序将待排记录分隔成独立的两部分，其中一部分记录的关键字均比另一部分的关键字小，则可分别对这两部分记录继续进行排序，以达到整个序列有序。<br>​        也就是先确定一个基准元素，每次都将基准元素排到正确的位置，保证它左边的元素都小于或等于它，它右边的元素都大于或等于它，然后对其左边和右边的全部元素分别再快速排序。</p>
+<hr>
+<h2 id="算法步骤"><a href="#算法步骤" class="headerlink" title="算法步骤"></a>算法步骤</h2><ol>
+<li>在数组中选择一个基准数（通常为数组第一个）；</li>
+<li>将数组中小于基准数的数据移动到基准数左边，大于基准数的移动到右边；</li>
+<li>对于基准数左右两边的数组，不断重复以上两个过程，直到每个子集只有一个元素，即为全部有序</li>
+</ol>
+<p>一下是一次快速排序的例子：<br><img src="/2021/08/12/03-%E5%B8%B8%E7%94%A8%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%EF%BC%88c-%E5%AE%9E%E7%8E%B0%EF%BC%89/image-20210812170519656.png" alt="image-20210812170519656"></p>
+<hr>
+<h2 id="完整c-代码"><a href="#完整c-代码" class="headerlink" title="完整c++代码"></a>完整c++代码</h2><blockquote>
+<p>3.1、设置两个变量 first、last，排序开始时：first=0，last=size-1。<br>3.2、整个数组找基准正确位置，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面</p>
+<ol>
+<li>默认数组的第一个数为基准数据，赋值给key，即key=array[first]。</li>
+<li>因为默认数组的第一个数为基准，所以从后面开始向前搜索（last），找到第一个小于key的array[last]，就将 array[last] 赋给 array[first]，即 array[first] = array[last]。（循环条件是 first &lt; last &amp;&amp; array[last] &gt;= temp）</li>
+<li>此时从前面开始向后搜索（first），找到第一个大于key的array[first]，就将 array[first] 赋给 array[last]，即 array[last] = array[first]。（循环条件是first &lt; last &amp;&amp; array[first] &lt;= temp）</li>
+<li>循环 2-3 步骤，直到 first=last，该位置就是基准位置。把基准数据赋给当前位置。</li>
+</ol>
+<p>3.3、第一趟找到的基准位置，作为下一趟的分界点。<br>3.4、递归调用（recursive）分界点前和分界点后的子数组排序，重复1、2、3、4的步骤。<br>3.5、最终就会得到排序好的数组。</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void display(vector&lt;int&gt; &amp;array, int size) &#123;</span><br><span class="line">	for (int i = 0; i &lt; size; i++) &#123;</span><br><span class="line">		cout &lt;&lt; array[i] &lt;&lt; &quot; &quot;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//快速排序</span><br><span class="line">void quick_sort(vector&lt;int&gt; &amp;array, int start, int end)&#123;</span><br><span class="line">	if (start &gt;= end) return;//如果子集里只有一个元素则不用排序</span><br><span class="line"></span><br><span class="line">	//将大于基准元素的值移动至右边，小于基准元素的值移动至左边</span><br><span class="line">	int first = start, last = end, temp = array[first];</span><br><span class="line">	while (first &lt; last)&#123;</span><br><span class="line">		//一直将last向左移动至array[last] &lt; temp或first &gt;= last</span><br><span class="line">		while (first &lt; last &amp;&amp; array[last] &gt;= temp)&#123;</span><br><span class="line">			--last;</span><br><span class="line">		&#125;</span><br><span class="line">		array[first] = array[last];</span><br><span class="line"></span><br><span class="line">		//一直将first向右移动至array[first] &gt; temp或first &gt;= last</span><br><span class="line">		while (first &lt; last &amp;&amp; array[first] &lt;= temp)&#123;</span><br><span class="line">			++first;</span><br><span class="line">		&#125;</span><br><span class="line">		array[last] = array[first];</span><br><span class="line">	&#125;</span><br><span class="line">	array[first] = temp;</span><br><span class="line"></span><br><span class="line">	quick_sort(array, start, first - 1);//将基准元素的左子集进行排序</span><br><span class="line">	quick_sort(array, first + 1, end);//将基准元素的右子集进行排序</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">	 int size      = 20;</span><br><span class="line">	 vector&lt;int&gt; array(20, 0);                 // 数组初始化</span><br><span class="line">	 for (int i = 0; i &lt; 5; i++) &#123;       // 数组个数</span><br><span class="line">	     for (int j = 0; j &lt; size; j++) &#123; // 数组大小</span><br><span class="line">	         array[j] = rand() % 100;    // 随机生成数大小 0~99</span><br><span class="line">	     &#125;</span><br><span class="line">	     cout &lt;&lt; &quot;原来的数组&quot; &lt;&lt; endl;</span><br><span class="line">	     display(array, size);</span><br><span class="line">	     quick_sort(array, 0, size - 1);</span><br><span class="line">		 cout &lt;&lt; &quot;排序后的数组&quot; &lt;&lt; endl;</span><br><span class="line">	     display(array, size);</span><br><span class="line">		 cout &lt;&lt; endl;</span><br><span class="line">	 &#125;</span><br><span class="line">	system(&quot;pause&quot;);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="算法分析"><a href="#算法分析" class="headerlink" title="算法分析"></a>算法分析</h2><p>时间复杂度：<br>$$<br>最好：O ( n l o g _2 n )<br>$$</p>
+<p>$$<br>最坏：O ( n^2 )<br>$$</p>
+<p>$$<br>平均：O ( n l o g_2 n )<br>$$</p>
+<p>空间复杂度：<br>$$<br>空间复杂度：O ( n l o g_2 n )<br>$$<br>稳定性：不稳定</p>
+]]></content>
+  </entry>
+  <entry>
     <title>我的第一篇博客</title>
     <url>/2021/08/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<hr>
