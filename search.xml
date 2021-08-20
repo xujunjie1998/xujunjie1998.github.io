@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>02_物理层</title>
+    <url>/2021/08/08/02_%E7%89%A9%E7%90%86%E5%B1%82/</url>
+    <content><![CDATA[<h1 id="2、计算机网络第二章（物理层）"><a href="#2、计算机网络第二章（物理层）" class="headerlink" title="2、计算机网络第二章（物理层）"></a>2、计算机网络第二章（物理层）</h1><hr>
+<h2 id="2-1、基本概念"><a href="#2-1、基本概念" class="headerlink" title="2.1、基本概念"></a>2.1、基本概念</h2><hr>
+<h2 id="2-2、传输媒体"><a href="#2-2、传输媒体" class="headerlink" title="2.2、传输媒体"></a>2.2、传输媒体</h2><ul>
+<li>导引型传输媒体</li>
+<li>非导引型传输媒体</li>
+</ul>
+<hr>
+<h2 id="2-3、传输方式"><a href="#2-3、传输方式" class="headerlink" title="2.3、传输方式"></a>2.3、传输方式</h2><ul>
+<li>串行传输与并行传输</li>
+<li>同步传输与异步传输</li>
+<li>单向通信、双向交替通信（半双工）和双向同时通信（全双工）</li>
+</ul>
+<hr>
+<h2 id="2-4、编码与调制"><a href="#2-4、编码与调制" class="headerlink" title="2.4、编码与调制"></a>2.4、编码与调制</h2><ul>
+<li>传输媒体与信道</li>
+<li>常用编码</li>
+<li>调制</li>
+<li>码元</li>
+</ul>
+<hr>
+<h2 id="2-5、信道的极限容量"><a href="#2-5、信道的极限容量" class="headerlink" title="2.5、信道的极限容量"></a>2.5、信道的极限容量</h2><ul>
+<li>奈斯特公式</li>
+<li>香农公式</li>
+</ul>
+<hr>
+<h2 id="2-6、信道复用技术"><a href="#2-6、信道复用技术" class="headerlink" title="2.6、信道复用技术"></a>2.6、信道复用技术</h2><ul>
+<li>频分复用</li>
+<li>时分复用</li>
+<li>统计时分复用</li>
+<li>波分复用</li>
+<li>码分复用</li>
+</ul>
+<hr>
+]]></content>
+  </entry>
+  <entry>
     <title>第一章 网络概述</title>
     <url>/2021/08/05/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/</url>
     <content><![CDATA[<h1 id="计算机网络第一章（概述）"><a href="#计算机网络第一章（概述）" class="headerlink" title="计算机网络第一章（概述）"></a>计算机网络第一章（概述）</h1><hr>
@@ -39,44 +77,6 @@
 <hr>
 <h2 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h2><p><img src="/2021/08/05/01_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/myblog\hexo\source\_posts\01_计算机网络概述.assets\image-20210808115204636.png" alt="image-20210808115204636"></p>
 <h3 id="常见的网络体系结构"><a href="#常见的网络体系结构" class="headerlink" title="常见的网络体系结构"></a>常见的网络体系结构</h3><h3 id="计算机网络体系结构分层的必要性"><a href="#计算机网络体系结构分层的必要性" class="headerlink" title="计算机网络体系结构分层的必要性"></a>计算机网络体系结构分层的必要性</h3><h3 id="计算机网络通信过程"><a href="#计算机网络通信过程" class="headerlink" title="计算机网络通信过程"></a>计算机网络通信过程</h3><h3 id="计算机网络专用术语"><a href="#计算机网络专用术语" class="headerlink" title="计算机网络专用术语"></a>计算机网络专用术语</h3><hr>
-]]></content>
-  </entry>
-  <entry>
-    <title>02_物理层</title>
-    <url>/2021/08/08/02_%E7%89%A9%E7%90%86%E5%B1%82/</url>
-    <content><![CDATA[<h1 id="2、计算机网络第二章（物理层）"><a href="#2、计算机网络第二章（物理层）" class="headerlink" title="2、计算机网络第二章（物理层）"></a>2、计算机网络第二章（物理层）</h1><hr>
-<h2 id="2-1、基本概念"><a href="#2-1、基本概念" class="headerlink" title="2.1、基本概念"></a>2.1、基本概念</h2><hr>
-<h2 id="2-2、传输媒体"><a href="#2-2、传输媒体" class="headerlink" title="2.2、传输媒体"></a>2.2、传输媒体</h2><ul>
-<li>导引型传输媒体</li>
-<li>非导引型传输媒体</li>
-</ul>
-<hr>
-<h2 id="2-3、传输方式"><a href="#2-3、传输方式" class="headerlink" title="2.3、传输方式"></a>2.3、传输方式</h2><ul>
-<li>串行传输与并行传输</li>
-<li>同步传输与异步传输</li>
-<li>单向通信、双向交替通信（半双工）和双向同时通信（全双工）</li>
-</ul>
-<hr>
-<h2 id="2-4、编码与调制"><a href="#2-4、编码与调制" class="headerlink" title="2.4、编码与调制"></a>2.4、编码与调制</h2><ul>
-<li>传输媒体与信道</li>
-<li>常用编码</li>
-<li>调制</li>
-<li>码元</li>
-</ul>
-<hr>
-<h2 id="2-5、信道的极限容量"><a href="#2-5、信道的极限容量" class="headerlink" title="2.5、信道的极限容量"></a>2.5、信道的极限容量</h2><ul>
-<li>奈斯特公式</li>
-<li>香农公式</li>
-</ul>
-<hr>
-<h2 id="2-6、信道复用技术"><a href="#2-6、信道复用技术" class="headerlink" title="2.6、信道复用技术"></a>2.6、信道复用技术</h2><ul>
-<li>频分复用</li>
-<li>时分复用</li>
-<li>统计时分复用</li>
-<li>波分复用</li>
-<li>码分复用</li>
-</ul>
-<hr>
 ]]></content>
   </entry>
   <entry>
